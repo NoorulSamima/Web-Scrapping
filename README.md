@@ -11,23 +11,27 @@ Python Libraries:
 Database Setup:
 •	Using XAMPP MySQL.
 •	A MySQL database to store the scraped reviews.
- STEP 2:
+
+STEP 2:
 Requirements: 
 The requirements.txt file that includes all the necessary libraries.
+
 STEP 3:
 MySQL Configuration:
 The config.py contains the configuration for connecting to the MySQL database. You can update this with your XAMPP MySQL credentials
+
 STEP 4:
 Database Connection:
 The databsse.py handles the database connection.
+
 STEP 5:
 Main Scraping Script:
 The scraper.py is the core script that scrapes Amazon Iphone reviews for the given link , stores them in the MySQL database, and also performs basic sentiment analysis.
 
-
 STEP 6:
 Sentiment Analysis:
 Each review’s sentiment (positive, neutral, or negative) is classified using TextBlob and stored in the database.
+
 STEP 7:
 MySQL Database Setup (XAMPP):
 1.	Open XAMPP and start Apache and MySQL.
